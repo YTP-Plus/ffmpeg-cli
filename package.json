@@ -1,7 +1,7 @@
 {
   "name": "ffmpeg-cli",
   "version": "2.7.1",
-  "description": "ffmpeg with support for multiple OSs",
+  "description": "ffmpeg for ytp+ suite",
   "main": "./lib/index.js",
   "scripts": {
     "test": "node test.js",
@@ -22,18 +22,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PotatoParser/ffmpeg-cli.git"
+    "url": "git+https://github.com/YTP-Plus/ffmpeg-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/PotatoParser/ffmpeg-cli/issues"
+    "url": "https://github.com/YTP-Plus/ffmpeg-cli/issues"
   },
-  "homepage": "https://github.com/PotatoParser/ffmpeg-cli#readme",
+  "homepage": "https://github.com/YTP-Plus/ffmpeg-cli#readme",
   "dependencies": {
     "adm-zip": "^0.4.14",
     "follow-redirects": "^1.13.0",
-    "lzma-native": "^5.0.1",
-    "progress": "^2.0.3",
-    "tar": "^6.0.2"
+    "progress": "^2.0.3"
   },
   "devDependencies": {
     "eslint": "^7.10.0",
