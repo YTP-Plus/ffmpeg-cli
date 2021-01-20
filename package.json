@@ -5,9 +5,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "node test.js",
-    "postinstall": "node ./lib/download.js",
-    "lint": "eslint test.js ./lib/*",
-    "lint:fix": "eslint test.js ./lib/* --fix"
+    "postinstall": "node ./lib/download.js"
   },
   "precommit": "lint",
   "keywords": [
@@ -29,12 +27,11 @@
   },
   "homepage": "https://github.com/YTP-Plus/ffmpeg-cli#readme",
   "dependencies": {
-    "adm-zip": "^0.4.14",
+    "adm-zip": "YTP-Plus/adm-zip-winxp",
     "follow-redirects": "^1.13.0",
     "progress": "^2.0.3"
   },
-  "devDependencies": {
-    "eslint": "^7.10.0",
-    "pre-commit": "^1.2.2"
+  "engines": {
+    "node": ">=v4.9.1"
   }
 }
